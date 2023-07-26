@@ -1,0 +1,525 @@
+@font-face {
+    src: url(../fuentes/Quicksand-Medium.ttf);
+    font-family: "mifuente";
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+body {
+    font-family: "mifuente";
+}
+
+
+
+
+/* CABECERA */
+
+
+.contenedor1 {
+    background-color: #111111;
+}
+
+.cabecera {
+    position: sticky;
+    top: 0;
+    background-color: #111111;
+    z-index: 100;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+.cabecera img {
+    max-width: 20%;
+    height: auto;
+    border: 2px solid seagreen;
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin-left: 40%;
+    padding: 1%;
+}
+
+.cabecera ul {
+    display: none;
+}
+
+
+
+/* INDEX */
+
+
+.grandslam img{
+    width: 100%;
+    height: auto;
+}
+
+#wimbledon img{
+    width: 100%;
+    height: auto;
+}
+
+#rolandgarros img{
+    width: 100%;
+    height: auto;
+}
+
+#openaustralia img{
+    width: 100%;
+    height: auto;
+}
+
+#openus img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* PÁGINAS */
+
+
+.contenedor_datos {
+    text-align: center;
+    background-image: url(../imagenes/fondo_movil.jpg);
+    background-size: cover;
+    color: black;
+}
+
+.contenedor_datos p {
+    text-align: center;
+    text-indent: 1em;
+    line-height: 1.5;
+}
+
+.contenedor_datos h1 {
+    text-shadow: 2px 2px 5px orange;
+}
+
+.img_wimbledon {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+    padding: 1%;
+    transition: 2s;
+}
+
+.img_rolandgarros {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+    padding: 1%;
+    transition: 2s;
+}
+
+.img_australia {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+    padding: 1%;
+    transition: 2s;
+}
+
+.img_US {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8%;
+    padding: 1%;
+    transition: 2s;
+}
+
+
+
+.texto_estadio {
+    text-align: center;
+    padding: 2%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+    transition: 2s;
+}
+
+.texto_garbinie {
+    padding: 2%;
+    margin-bottom: 2%;
+    transition: 2s;
+}
+
+.texto_rafa {
+    padding: 2%;
+    margin-bottom: 2%;
+    transition: 2s;
+}
+
+.texto_serena {
+    padding: 2%;
+    margin-bottom: 2%;
+    transition: 2s;
+}
+
+.texto_federer {
+    padding: 2%;
+    margin-bottom: 2%;
+    transition: 2s;
+}
+
+
+
+
+/* CAMPEON@S */
+
+
+.img_garbinie {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    border-radius: 8%;
+}
+
+.img_rafa {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    border-radius: 8%;
+}
+
+.img_serena {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    border-radius: 8%;
+}
+
+.img_federer {
+    max-width: 100%;
+    height: auto;
+    padding: 1%;
+    border-radius: 8%;
+}
+
+
+
+/* PIE */
+
+
+.pie {
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+}
+
+.pie a {
+    text-decoration: none;
+    color: white;
+}
+
+.pie img {
+    max-width: 6%;
+    height: auto;
+    margin: 1% 5%;
+    transition: 1s;
+}
+
+.pie img:hover {
+    background-color: silver;
+    border-radius: 60%;
+}
+
+
+
+
+/* SmartPhones */
+[class*="col-"] {
+  width: 100%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  /* Tablets */
+    .col-t-1 {width: 7.69%;}
+    .col-t-2 {width: 15.38%;}
+    .col-t-3 {width: 23.07%;}
+    .col-t-4 {width: 30.76%;}
+    .col-t-5 {width: 38.45%;}
+    .col-t-6 {width: 46.14%;}
+    .col-t-7 {width: 53.83%;}
+    .col-t-8 {width: 61.52%;}
+    .col-t-9 {width: 69.21%;}
+    .col-t-10 {width: 76.9%;}
+    .col-t-11 {width: 84.59%;}
+    .col-t-12 {width: 92.28%;}
+    .col-t-13 {width: 100%;}
+
+
+.contenedor2 {
+    background-color: #111111;
+}
+
+.contenedor2 img{
+    border-radius: 15%;
+    padding: 1%;
+    box-shadow: 15px 23px 20px 1px silver;
+}
+    
+.cabecera img {
+    border-top-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}    
+
+
+.cabecera ul {
+    display: none;
+}
+
+.cabecera li {
+    display: inline;
+    font-size: 100%;
+    margin: 1%;
+}
+    
+.cabecera a {
+    color: white;
+    text-align: center;
+}
+    
+.contenedor_datos {
+    background-image: url(../imagenes/fondo_tablet.jpg);
+    background-size: cover;
+    color: white;
+}
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+  /* PC de Escritorio */
+    .col-1 {width: 7.69%;}
+    .col-2 {width: 15.38%;}
+    .col-3 {width: 23.07%;}
+    .col-4 {width: 30.76%;}
+    .col-5 {width: 38.45%;}
+    .col-6 {width: 46.14%;}
+    .col-7 {width: 53.83%;}
+    .col-8 {width: 61.52%;}
+    .col-9 {width: 69.21%;}
+    .col-10 {width: 76.9%;}
+    .col-11 {width: 84.59%;}
+    .col-12 {width: 92.28%;}
+    .col-13 {width: 100%;}
+
+
+
+/* INDEX */
+
+    
+.cabecera {
+    height: 100vh;
+    text-align: center;
+}
+    
+.cabecera img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 0%;
+    border-radius: 15%;
+}
+
+.cabecera ul {
+    display: block;
+    list-style-type: none;
+    margin-top: 100%;
+}  
+    
+.cabecera li {
+    font-size: 1.2vw;
+    margin: 50% 0% 0% 0%;
+    transition: 2s;
+}
+
+.cabecera a {
+    text-decoration: none;
+    color: white;
+}
+
+.cabecera a:hover {
+    color: lime;
+    transition: 1s;
+}
+
+.contenedor2 img {
+    border-radius: 5%;
+    filter: grayscale(60%);
+    transition: 1s;
+}
+    
+.contenedor2 img:hover {
+    transition: 2s;
+    border-radius: 25%;
+    filter: grayscale(0%);
+    box-shadow: 2px 4px 15px 15px #ec731e;
+}
+
+.contenedor2 {
+    background-image: url(../imagenes/fondo_index_escritorio.jpg);
+    background-size: contain;
+}
+
+
+
+/* PáGINAS */
+
+
+.contenedor_datos {
+    background-image: url(../imagenes/fondo_escritorio.jpg);
+    background-size: cover;
+    color: white;
+}
+    
+.contenedor_datos p {
+    text-align: left;
+}
+
+
+.img_wimbledon {
+    float: left;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+    
+.img_wimbledon:hover {
+    filter: grayscale(0%);
+}
+
+.img_rolandgarros {
+    float: left;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+    
+.img_rolandgarros:hover {
+    filter: grayscale(0%);
+}
+
+.img_australia {
+    float: left;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+
+.img_australia:hover {
+    filter: grayscale(0%);
+}
+
+.img_US {
+    float: left;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+
+.img_us:hover {
+    filter: grayscale(0%);
+}
+
+
+
+/* CAMPEON@S */
+
+
+.texto_garbinie {
+    margin-top: 14%;
+    transition: 1s;
+}
+
+.texto_rafa {
+    margin-top: 5%;
+    transition: 1s;
+}
+
+.texto_serena {
+    margin-top: 13%;
+    transition: 1s;
+}
+
+.texto_federer {
+    margin-top: 13%;
+    transition: 1s;
+}
+
+
+
+.img_garbinie {
+    float: right;
+    margin-top: 3%;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+    
+.img_garbinie:hover {
+    filter: grayscale(0%);
+} 
+
+
+.img_rafa {
+    float: right;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+    
+.img_rafa:hover {
+    filter: grayscale(0%);
+}
+
+
+.img_serena {
+    float: right;
+    margin-top: 2%;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+
+.img_serena:hover {
+    filter: grayscale(0%);
+}
+
+
+.img_federer {
+    float: right;
+    margin-top: 2%;
+    filter: grayscale(70%);
+    transition: 2s;
+}
+
+.img_federer:hover {
+    filter: grayscale(0%);
+}
+
+
+
+/* PIE */
+    
+
+.pie {
+    display: none;
+}
+
+.enlaces img{
+    width: 2vw;
+}
+
+
+}
